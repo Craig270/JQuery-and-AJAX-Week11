@@ -5,6 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic-Tac-Toe</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body class="bodyNormal">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" style="text-align: center">
+          <h3 class="mainimg">Tic Tac Toe Game</h3>
+          <p class="text-white">Press new game to get started</p>
+        </div>
+      </div>
+      <div class="row bg-white">
+        <div class="col-md-4">
+          <table>
+            <tbody>
+              <tr>
+                <th>
+                  <button class="btn" id="newGame">🔄 New game</button>
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <h2 class="player1Turn hidden">Player 1 Turn</h2>
+                  <h2 class="player2Turn hidden">Player 2 Turn</h2>
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <h2 class="player1Wins hidden">Player 1 WINS!</h2>
+                  <h2 class="player2Wins hidden">Player 2 WINS!</h2>
+                  <h2 class="player2Wins draw hidden">
+                    DRAW!<br />
+                    Game Over!
+                  </h2>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-8">
+          <table>
+            <tr>
+              <td class="grid">7<img src="X.jpg"</td>
+              <td class="vert grid">8<img src="O.jpg"</td>
+              <td class="grid">9<img src="X.jpg"</td>
+            </tr>
+            <tr>
+              <td class="hori grid">4<img src="O.jpg"</td>
+              <td class="vert hori grid">5<img src="X.jpg"</td>
+              <td class="hori grid">6<img src="O.jpg"</td>
+            </tr>
+            <tr>
+              <td class="grid">1<img src="X.jpg"</td>
+              <td class="vert grid">2<img src="O.jpg"</td>
+              <td class="grid">3<img src="X.jpg"</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
 </html>

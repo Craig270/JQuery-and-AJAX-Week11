@@ -1,0 +1,105 @@
+.maintable {
+  border: 1px solid rgb(221, 36, 36);
+}
+
+h1 {
+  text-align: center;
+}
+td {
+  width: 100px;
+  height: 100px;
+}
+table {
+  margin: 5px auto;
+}
+
+#newGame {
+  background-color: #8792a0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  align-content: stretch;
+  font-size: 30px;
+}
+
+.bodyNormal {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #175a2b 0%, #2d48e6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyWin0 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #000000 0%, #ffffff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyWin1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #e20909 0%, #ffffff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player1Turn {
+  color: black;
+  font-family: "Ultra", serif;
+  font-size: 65px;
+}
+
+.player2Turn {
+  color: red;
+  font-family: "Ultra", serif;
+  font-size: 65px;
+}
+
+.player1Wins {
+  font-family: "Fredoka One", cursive;
+  color: black;
+  font-size: 65px;
+}
+
+.player2Wins {
+  font-family: "Fredoka One", cursive;
+  color: red;
+  font-size: 65px;
+}
+
+.draw {
+  color: #2d48e6;
+  font-size: 48px;
+  font-family: "Ultra", serif;
+}
+
+.vert {
+  border-left: 7px solid black;
+  border-right: 7px solid black;
+}
+.hori {
+  border-top: 7px solid black;
+  border-bottom: 7px solid black;
+}
+
+.mainimg {
+  font-family: "Ultra", serif;
+  font-size: 65px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
