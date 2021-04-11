@@ -119,6 +119,7 @@ function draw() {
   document.getElementById("playerTurn").innerHTML = "DRAW! No Winners!";
   document.getElementById("playerWinsMessage").innerHTML = "DRAW!";
   document.getElementById("jumbo").classList.toggle("hidden");
+  document.getElementById("newGame").classList.add("hidden");
 }
 
 document.getElementById("restartGame").addEventListener("click", () => {
